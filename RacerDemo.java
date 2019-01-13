@@ -2,7 +2,7 @@
  * This program creates two racer objects from user input that race against each other
  * 
  * The RacerDemo class keeps track of user input for moving the racers,
- * then prints who wins (or if there is a tie) when they reach the "max position"
+ * then prints who wins (or if there is a tie) when they reach their "max position"
  */
 
 //RacerDemo.java
