@@ -1,9 +1,4 @@
-/* CSCI 1110
- * Eric Humber
- * B00 713 687
- * 12 Oct 2018
- * 
- * Assignment 3 Problem 5 (Part 2)
+/*
  * This program adds appointments for specific days and
  * prints the updated calendar
  */
@@ -15,7 +10,7 @@ public class Calendar{
   public static void main(String[] args){
   Scanner kb = new Scanner(System.in);
   
-  System.out.println("Pleae enter the month you wish to schedule for (numeric value 1-12): ");
+  System.out.println("Please enter the month you wish to schedule for (numeric value 1-12): ");
   int mNum = kb.nextInt();
       
     //Initialize 2D array
@@ -58,12 +53,12 @@ public class Calendar{
     
     //Read in appointments
     do{ //So it does it at least once, in case it's -1 right away
-      System.out.print("Enter date for appointment(-1 to end): ");
+      System.out.println("Enter date for appointment (-1 to end): ");
         apptDate = kb.next() + "-"; //Ensure it recognizes what's already in array
       if (apptDate.equals("-1-")){
         break;
       }
-      System.out.print("Enter initials of person you're meeting: ");
+      System.out.println("Enter initials of person you're meeting: ");
         apptInit = kb.next();
       
         for(int i=0; i < 5; i++){ //Rows
