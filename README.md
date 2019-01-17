@@ -5,4 +5,7 @@ A simple racing game that I developed in my intro Java class. You need the playe
 A simple calendar that I developed in my intro Java class. You just need the calendar.java file to run it. The only improper user input it deals with is trying to double-book. It also assumes that each month begins on Sunday and that it isn't a leap year.
 
 # Mixed and Augmented Reality Paper
-A short paper on virtual reality I wrote for an Informatics class
+A short paper on virtual reality I wrote for an Informatics class.
+
+# Driverless Cars Paper
+A short paper on driverless cars I wrote for an Informatics class.
